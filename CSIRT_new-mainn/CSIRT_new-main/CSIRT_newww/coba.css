@@ -1,0 +1,14 @@
+body{
+    background: cornsilk;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+.grid > article{
+    box-shadow: 10px 5px 5px 0px black ;
+}
